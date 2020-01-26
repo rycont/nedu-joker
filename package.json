@@ -1,0 +1,36 @@
+{
+  "name": "nedu-joker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "@types/cheerio": "^0.22.15",
+    "@types/node-fetch": "^2.5.4",
+    "@types/tough-cookie": "^2.3.6",
+    "@types/tough-cookie-file-store": "^1.2.0",
+    "cheerio": "^1.0.0-rc.3",
+    "fetch-cookie": "^0.7.3",
+    "form-data": "^3.0.0",
+    "node-fetch": "^2.6.0",
+    "tough-cookie": "^3.0.1",
+    "tough-cookie-file-store": "^1.2.0",
+    "typescript": "^3.7.5"
+  },
+  "devDependencies": {
+    "ts-node": "^8.6.2"
+  },
+  "scripts": {
+    "dev": "ts-node test.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reeactdev/nedu-joker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/reeactdev/nedu-joker/issues"
+  },
+  "homepage": "https://github.com/reeactdev/nedu-joker#readme"
+}
