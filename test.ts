@@ -1,7 +1,6 @@
-import { Benedu } from "./joker"
+import Benedu from './joker';
 
-const me = new Benedu()
-me.login({
-    email: 'wjdgks1224@gmail.com',
-    password: 'toon..4212!'
-}).then(console.log)
+const me = new Benedu();
+(async (): Promise<void> => {
+  console.log(await me.getDailyWords(new Date('2020-01-11')));
+})();
