@@ -1,8 +1,7 @@
 import CookieStore from 'tough-cookie-file-store';
 import { CookieJar } from 'tough-cookie';
-import nodeFetch, { RequestInit, Headers, Response } from 'node-fetch';
+import nodeFetch, { RequestInit, Headers } from 'node-fetch';
 import fetcher, { TFetch } from 'fetch-cookie';
-// import { load } from 'cheerio'
 import FormData from 'form-data';
 import { createWriteStream, WriteStream } from 'promise-fs';
 import { JSDOM } from 'jsdom';
